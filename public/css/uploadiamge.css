@@ -1,0 +1,18 @@
+.main-section-upload{
+            margin:0 auto;
+            padding: 20px;
+            border: 1px dashed #ccc;
+        }
+        .file-preview{
+            border: none !important;
+        }
+        .file-drop-zone{
+            border: none !important;
+        }
+        .kv-file-content img{
+            width: 100% !important;
+        }
+        .fileinput-remove,
+        .fileinput-upload{
+            display: none;
+        }

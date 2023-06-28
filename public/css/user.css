@@ -1,0 +1,242 @@
+*{
+    margin: 0px 0px;
+}
+.head-for-web{
+    height: 18vh;
+}
+.logo{
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.txt-name{
+    font-size: 15px;
+}
+.s-20{
+    font-size: 20px;
+}
+.s-30{
+    font-size: 30px;
+}
+.slogan{
+    font-weight: 600;
+    text-align: right;
+}
+.btn-web{
+    background-color: #007cba !important;
+    color: white !important;
+}
+.btn-search-home{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.search-input{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 180px !important;
+}
+.btn-circle{
+    border-radius: 50%;
+}
+.btn-half-circle{
+      border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+.bg-header{
+    background: rgb(15,40,64);
+    background: linear-gradient(270deg, rgba(15,40,64,0.9) 46%, rgba(106,121,135,0.8) 100%, rgba(200,205,209,0.7) 100%);
+}
+.bg-img-header{
+    background-image: url('https://res.cloudinary.com/dcugpagjy/image/upload/v1685388026/background/bg-head_cxovvc.jpg');
+    background-size: cover;
+}
+.text-upscase{
+    text-transform: uppercase;
+    }
+ @media (max-width: 535px) {
+      .s-20 {
+        font-size: 15px; } }
+}
+.btn-see-more{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.title h3{
+  font-weight: 600;
+  font-size: 38px;
+}
+.title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img-card{
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 240px;
+}
+.img-card img{
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.card a:hover .img-card img{
+  transform: scale(1.15);
+}
+.calender-card{
+  position: absolute;
+  top: 10px;
+  margin-left: 20px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background:  rgba(0, 0, 0, 0.5);
+}
+.place-card{
+  position: absolute;
+  top: 50px;
+  margin-left: 20px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background:  rgba(0, 0, 0, 0.5);
+}
+.card-body .card-title{
+    height: 35px;
+}
+.card a{
+  text-decoration: none;
+/*  color: black;*/
+}
+.card a:hover .card-title{
+  color: #0062cc;
+}
+.card-title{
+  font-weight: 600;
+  color: black;
+}
+.category-title{
+/*  text-transform: uppercase;*/
+  font-size: 15px;
+  color: #0062cc;
+}
+
+.card-text p{
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 15px;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 20px;
+  background: #cacaca;
+  border-radius: 8px;
+}
+
+.skill-per{
+  height: 20px;
+  background-color: #0fbcf9;
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+/*  padding: 4px 6px;*/
+/*  background-color: #000;*/
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  top: 0px;
+  /*right: 0;*/
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+/*  background-color: #000;*/
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+.donation{
+    height: 40px;
+    width: 95%;
+    position: relative;
+}
+.percent-donation{
+    border-radius: 10px;
+    position:absolute;
+    top: -90%;
+    background: #f1f1f1;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#navbar{
+    z-index: 1000;
+}
+.bg-image-home{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-opacity{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+.header-section{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    color: white;
+    border-left: 8px solid white;
+    padding-left: 20px;
+    /*padding-top: 10px;*/
+    padding-bottom: 10px;
+    font-size: 35px;
+    height: 130px;
+    FONT-WEIGHT: 700;
+}
+ @media (max-width: 497px) {
+      .header-section {
+        font-size: 25px;
+        height: 90px;
+         } }
+
+.p-relative{
+    position: relative;
+}
